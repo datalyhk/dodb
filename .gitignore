@@ -1,5 +1,6 @@
 # Local files and secrets
 backend/dj_secret.key
+backend/druglist.csv
 backend/venv/
 
 # Byte-compiled / optimized / DLL files
