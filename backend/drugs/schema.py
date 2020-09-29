@@ -23,7 +23,7 @@ class Query(graphene.ObjectType):
             return None
 
     def resolve_all_companies(root, info, **kwargs):
-        return Company.objects.select_related('product').all()
+        return Company.objects.all()
 
     def resolve_company(root, info, id):
         try:
