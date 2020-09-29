@@ -35,8 +35,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'django_filters',
+    'graphene_django',
     'drugs',
 ]
+
+GRAPHENE = {
+    "SCHEMA": "drugs.schema.schema",
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
